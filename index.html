@@ -1,18 +1,117 @@
 
 
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>弟子规</title>
 <meta name="Keywords" content="弟子规全文,弟子规全文解释,弟子规全文带拼音,弟子规朗读" />
-<link href="style.css" rel="stylesheet" />
+
 <style>
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Oxygen",Arial,"Hiragino Sans GB","Microsoft YaHei","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif,宋体;
+    font-size: 14px;
+    color: #503e2c;
+    background-color: #ece5d8;
+}
+
+img {
+    display: block;
+    border: none;
+}
+
+.hidden {
+    display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+	color: #300;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.header, .container, .nav, .banner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.container .col-left {
+    margin-right: 18px;
+    float: left;
+}
+
+.box {
+    margin: 15px 0;
+    background: #fff;
+    margin-top: 35px; 
+    padding-top: 45px; 
+}
+
+.side {
+    width: 250px;
+    background: #fff;
+    margin-bottom: 45px; 
+}
+.col-left .box .contentbox {
+    line-height: 1.5em;
+    word-wrap: break-word;
+    padding: 20px;
+}
+
+.col-right .side .contentbox {
+    line-height: 1.6em;
+    word-wrap: break-word;
+    padding: 10px 20px;
+}
+
+.col-right .side .contentbox li {
+	border-bottom: 1px dotted #a78b6f;
+}
+
+.col-right .side .contentbox li a {
+	color: #9b8878;
+}
+
+.col-right .side .contentbox li a:hover {
+	color: #300;
+}
+
+.contentbox .title {
+    font-size: 36px;
+    line-height: 36px;
+    padding-bottom: 10px;
+    margin-bottom: 15px; 
+    border-bottom: 1px solid #a78b6f; 
+}
+.content{
+    line-height:160%;
+    font-size:16px; 
+}
+
 a {
 color: #3498db;
 }
 .dzg {
 padding: 35px;
+padding-top: 18px;
 }
 .dzg_title {
 text-align: center;
@@ -22,7 +121,7 @@ margin-bottom: 20px;
 display: block;
 }
 .dzg_title i {
-font-size: 18px;
+font-size: 18px; 
 }
 .dzg_title i s {
 margin: 0 25px;
@@ -30,11 +129,13 @@ margin: 0 25px;
 .dzg_title span {
 font-size: 24px;
 color: #333;
+padding-top: 18px;
 }
 .dzg_content {
 border-bottom: 1px dashed #f4cf9c;
 margin-bottom: 16px;
-padding-bottom: 8px;
+padding-bottom: 18px;
+padding-top: 38px;
 position: relative;
 *zoom: 1;
 }
@@ -80,9 +181,47 @@ margin: 0 0 10px;
 padding: 8px 10px;
 cursor: auto;
 }
+
+/* navbar*/
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+    z-index: 2;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+
 </style>
 </head>
 <body>
+<div class="navbar">
+  <a href="https://shanuan.github.io/blog/">blog</a>
+  <a target="_blank"  href="https://github.com/shanuan/dizigui/edit/master/index.html">v0.0.5</a>
+  <a target="_blank" href="https://shanuan.github.io/englishtyping/">englishtyping</a>
+  <a target="_blank" href="https://www.w3schools.com/howto/howto_css_fixed_menu.asp">ref1</a>
+</div>
+
+
 <div id="container">
 <div class="container">
 <div class="col-left">
@@ -92,17 +231,7 @@ cursor: auto;
 </div>
 <div class="contentbox">
 <div class="content">
-<p>
-弟子规朗读：
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" height="24" width="290" data="mp3.swf" type="application/x-shockwave-flash">
-<param value="mp3.swf" name="movie" />
-<param value="autostart=&bg=0xCDDFF3&leftbg=0x357DCE&lefticon=0xF2F2F2&rightbg=0xF06A51&rightbghover=0xAF2910&righticon=0xF2F2F2&righticonhover=0xFFFFFF&text=0x357DCE&slider=0x357DCE&track=0xFFFFFF&border=0xFFFFFF&loader=0xAF2910&soundFile=dizigui.mp3" name="FlashVars" />
-<param value="high" name="quality" />
-<param value="false" name="menu" />
-<param value="#FFFFFF" name="bgcolor" />
-<embed src="mp3.swf?soundFile=dizigui.mp3&bg=0xeeeeee&leftbg=0x357dce&lefticon=0xFFFFFF&rightbg=0xf06a51&rightbghover=0xaf2910&righticon=0xFFFFFF&righticonhover=0xffffff&text=0x666666&slider=0x666666&track=0xFFFFFF&border=0x666666&loader=0x9FFFB8&autostart=&loop=yes" width="290" height="24" wmode="transparent" type="application/x-shockwave-flash" />
-</object>
-</p>
+ 
 <div class="conm_box dzg">
 <h1 class="dzg_title">
 <i>dì<s>zǐ</s>guī</i>
@@ -3579,8 +3708,7 @@ cursor: auto;
 </div>
 </div>
 </div>
-</div>
-<script src="jquery-1.10.2.min.js"></script>
+</div> 
 <script type="text/javascript">
 var trs = document.getElementsByTagName("tr");
 for (var i = 0; i < trs.length; i++) {
